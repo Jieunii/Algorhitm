@@ -1,5 +1,6 @@
 from collections import Counter
 from functools import reduce
+
 def solution(clothes):
     answer = 0
     cnt = Counter([kind for name, kind in clothes])
